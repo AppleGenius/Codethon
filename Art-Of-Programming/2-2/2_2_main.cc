@@ -11,14 +11,20 @@ int Partition(std::string &str, int lo, int hi)
 		if (str[j] <= key)
 		{
 			i++;
-			swap(str[i], str[j]);
+			swap(&str[i], &str[j]);
 		}
 	}
 
-	swap(str[i + 1], str[hi]);
+	swap(&str[i + 1], &str[hi]);
 	return i + 1;
 }
+void swap(char* str1, char* str2)
+{
+	char temp = *str2;
+	*str2 = *str1;
+	*str1 = temp;
 
+}
 void QuickSort(std::string &str, int lo, int hi)
 {
 	if (lo < hi)
@@ -63,8 +69,8 @@ void CompareString(std::string str1, std::string str2)
 
 int main(int argc, const char * argv[])
 {
-	std::string str1 = "abcdefghijk";
-	std::string str2 = "abc";
+	std::string str1 = "abcdefghijklmnopqrs";
+	std::string str2 = "1";
 
 	QuickSort(str1, 0, str1.length() - 1);
 	QuickSort(str2, 0, str2.length() - 1);
