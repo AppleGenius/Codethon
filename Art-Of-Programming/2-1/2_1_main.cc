@@ -27,8 +27,8 @@ int CompareString(std::string longString, std::string shortString)
 
 int main(int argc, const char * argv[])
 {
-	std::string longString = "abc";
-	std::string shortString = "cba";
+	std::string longString = "abcdefg";
+	std::string shortString = "abc";
 	CompareString(longString, shortString);
 	return 0;
 }
