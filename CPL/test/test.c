@@ -18,6 +18,8 @@
 #include <linux/types.h>
 #include <linux/string.h>
 #include <linux/ctype.h>
+#include <ctype.h>
+#include <stdio.h>
 
 #ifndef __HAVE_ARCH_STRNICMP
 /**
