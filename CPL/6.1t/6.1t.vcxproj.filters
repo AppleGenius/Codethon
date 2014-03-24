@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cc">
+    <ClCompile Include="6.1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

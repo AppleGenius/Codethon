@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main(int argc, const char *argv[])
 {
 	float p3x = 80838.0f;
