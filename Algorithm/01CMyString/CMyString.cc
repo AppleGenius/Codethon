@@ -34,8 +34,7 @@ CMyString::CMyString(char *pData)
 		m_pData[0] = '\0';
 	}
 	else{
-		int len = strlen(pData);
-		m_pData = new char[len + 1];
+		m_pData = new char[strlen(pData) + 1];
 		strcpy(m_pData, pData);
 	}
 }
@@ -151,3 +150,4 @@ int main(int argc, const char *argv[])
 	return 0;
 }
 
+///////////////////////////////////////////////// F1 /////////////////////////////////////////////////////////////

@@ -7,13 +7,14 @@
 */
 #include <stdio.h>
 
-int StrToInt(char * string);
+int StrToInt(char * str);
+int StrToInt2(char *str);
 
 int main(int argc, const char *argv[])
 {	
 	char string[] = "123456";
 
-	printf("%d\n", StrToInt(string));
+	printf("%d\n", StrToInt2(string));
 	return 0;
 }
 
@@ -33,3 +34,22 @@ int StrToInt(char *string)
 	return number;
 		
 }
+
+
+int StrToInt2(char *str)
+{
+	if (str == NULL)
+		return NULL;
+
+	int result = 0;
+
+	while (*str != '\0'){
+		result = result * 10 + (*str - '0');
+		str++;
+	}
+
+	return result;
+}
+
+
+////////////////////////////////////// F1 ////////////////////////////////////////////////
