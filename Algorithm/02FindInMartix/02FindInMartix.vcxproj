@@ -14,6 +14,7 @@
     <ProjectGuid>{F5B86766-4A65-4B04-893B-E7046081F57A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My02FindInMartix</RootNamespace>
+    <ProjectName>02FindInMatrix</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,6 +77,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="02_main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

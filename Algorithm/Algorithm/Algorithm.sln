@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArraySize", "..\ArraySize\A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TempCPP", "..\TempCPP\TempCPP.vcxproj", "{F7E8DF4F-979F-466C-BF80-9608AD775DA5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02FindInMatrix", "..\02FindInMartix\02FindInMartix.vcxproj", "{F5B86766-4A65-4B04-893B-E7046081F57A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,16 @@ Global
 		{F7E8DF4F-979F-466C-BF80-9608AD775DA5}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{F7E8DF4F-979F-466C-BF80-9608AD775DA5}.Release|Win32.ActiveCfg = Release|Win32
 		{F7E8DF4F-979F-466C-BF80-9608AD775DA5}.Release|Win32.Build.0 = Release|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Debug|Win32.Build.0 = Debug|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Release|Win32.ActiveCfg = Release|Win32
+		{F5B86766-4A65-4B04-893B-E7046081F57A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
