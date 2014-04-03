@@ -69,7 +69,7 @@ CMyString& CMyString::operator = (const CMyString& str)
 
 		char *pTmp = tmp.m_data;
 		tmp.m_data = m_data;
-		m_data = tmp;
+		m_data = ptmp;
 	}
 
 	return *this;

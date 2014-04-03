@@ -40,17 +40,17 @@ ListNode* FindkNodeToTail(ListNode *pListHead, unsigned int k)
 }
 
 ///////////////////////////////////////////////////////////////////
-ListNode* FindKNodeToTail2(ListNode* pListHead, unsigned int k)
+ListNode* FindNodeToTail(ListNode* pListHead, unsigned int k)
 {
 	if (pListHead == NULL)
 		return NULL;
 
-	ListNode *pHead = pListHead;
-	ListNode *pBehind = pListHead;
+	ListNode* pHead = pListHead;
+	ListNode* pBehind = pListHead;
 
-	for (unsigned i = 0; i < k - 1; ++i)
+	for (unsigned int i = 0; i < k - 1; ++i)
 		pHead = pHead->next;
-	
+
 	while (pHead->next != NULL){
 		pHead = pHead->next;
 		pBehind = pBehind->next;
@@ -59,4 +59,5 @@ ListNode* FindKNodeToTail2(ListNode* pListHead, unsigned int k)
 	return pBehind;
 }
 
-///////////////////////////////////////// F1 ///////////////////////////////////////////////////
+
+///////////////////////////////////////// F2 ///////////////////////////////////////////////////
