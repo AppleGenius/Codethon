@@ -18,7 +18,10 @@
     <ClCompile Include="01CMyString.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="testSizeofAndStrlen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testStringAddress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -79,7 +79,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01CMyString.cc" />
-    <ClCompile Include="test.c" />
+    <ClCompile Include="testSizeofAndStrlen.c" />
+    <ClCompile Include="testStringAddress.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
