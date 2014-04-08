@@ -59,16 +59,18 @@ void DestroyList(ListNode* pHead)
 	}
 }
 
-void AddToTail(ListNode ** pHead, int value)
+void AddToTail(ListNode** pHead, int value)
 {
-	ListNode *pNew = new ListNode();
+	ListNode* pNew = new ListNode();
 	pNew->m_nValue = value;
 	pNew->m_pNext = NULL;
 
 	if (*pHead == NULL)
-		*pHead == pNew;
-	else{
-		ListNode * pNode = *pHead;
+		*pHead = pNew;
+	else
+	{
+		ListNode* pNode = *pHead;
+
 		while (pNode->m_pNext != NULL)
 			pNode = pNode->m_pNext;
 
@@ -83,13 +85,13 @@ void RemoveNode(ListNode** pHead, int value)
 		return;
 
 	ListNode* pToBeDeleted = NULL;
-
 	if ((*pHead)->m_nValue == value)
 	{
 		pToBeDeleted = *pHead;
 		*pHead = (*pHead)->m_pNext;
 	}
-	else{
+	else
+	{
 		ListNode* pNode = *pHead;
 		while (pNode->m_pNext != NULL && pNode->m_pNext->m_nValue != value)
 			pNode = pNode->m_pNext;
@@ -100,7 +102,6 @@ void RemoveNode(ListNode** pHead, int value)
 			pNode->m_pNext = pNode->m_pNext->m_pNext;
 		}
 	}
-
 
 	if (pToBeDeleted != NULL)
 	{
