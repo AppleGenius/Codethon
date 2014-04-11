@@ -32,7 +32,6 @@ void ReorderOddEven_1(int *pData, unsigned int length)
 	}
 }
 
-
 //====================================== Solution 2 ===================================================
 void ReorderOddEven_2(int *pData, unsigned int length)
 {
